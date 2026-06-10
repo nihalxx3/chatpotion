@@ -1,15 +1,26 @@
 # Changelog
 
+## 1.0.1
+
+### Changed
+
+* Documented Morning as the recommended base theme
+* Adjusted sidebar network icon spacing
+
+### Pending
+
+* Safari/macOS network icon color behavior needs confirmation
+
 ## 1.0.0
 
 Initial release of ChatPotion.
 
 ### Added
 
-- 21 custom themes for The Lounge
-- Halloy-inspired sidebar styling
-- Improved unread and mention indicators
-- Themed recent mentions panel
-- Fixed private message highlight behavior
-- Improved image preview overlay styling
-- Cleaner context menu styling
+* 21 custom themes for The Lounge
+* Halloy-inspired sidebar styling
+* Improved unread and mention indicators
+* Themed recent mentions panel
+* Fixed private message highlight behavior
+* Improved image preview overlay styling
+* Cleaner context menu styling
