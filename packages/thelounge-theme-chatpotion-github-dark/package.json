@@ -1,6 +1,6 @@
 {
   "name": "thelounge-theme-chatpotion-github-dark",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "GitHub Dark theme from ChatPotion for The Lounge IRC client.",
   "main": "package.json",
   "keywords": [

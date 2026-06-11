@@ -1,6 +1,6 @@
 {
   "name": "thelounge-theme-chatpotion-gruvbox-material",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Gruvbox Material theme from ChatPotion for The Lounge IRC client.",
   "main": "package.json",
   "keywords": [

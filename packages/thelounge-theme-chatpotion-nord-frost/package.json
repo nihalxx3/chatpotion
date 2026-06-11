@@ -1,6 +1,6 @@
 {
   "name": "thelounge-theme-chatpotion-nord-frost",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Nord Frost theme from ChatPotion for The Lounge IRC client.",
   "main": "package.json",
   "keywords": [

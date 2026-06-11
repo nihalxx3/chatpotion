@@ -5,6 +5,7 @@ const rootDir = path.resolve(__dirname, "..");
 const themesDir = path.join(rootDir, "themes");
 const packagesDir = path.join(rootDir, "packages");
 const licensePath = path.join(rootDir, "LICENSE");
+const morningPath = path.join(rootDir, "base", "morning.css");
 
 const cryptoSupport = `## Support
 
@@ -53,9 +54,14 @@ if (!fs.existsSync(licensePath)) {
   throw new Error("LICENSE file not found.");
 }
 
+if (!fs.existsSync(morningPath)) {
+  throw new Error("base/morning.css file not found.");
+}
+
 fs.mkdirSync(packagesDir, { recursive: true });
 
 const licenseText = fs.readFileSync(licensePath, "utf8");
+const morningCss = fs.readFileSync(morningPath, "utf8");
 
 for (const [fileName, displayName] of themes) {
   const slug = fileName.replace(".css", "");
@@ -70,12 +76,17 @@ for (const [fileName, displayName] of themes) {
   fs.mkdirSync(packageDir, { recursive: true });
 
   const css = fs.readFileSync(sourceCss, "utf8");
-  fs.writeFileSync(path.join(packageDir, "theme.css"), css, "utf8");
+
+  const fullThemeCss = `${morningCss}
+
+  ${css}`;
+
+  fs.writeFileSync(path.join(packageDir, "theme.css"), fullThemeCss, "utf8");
   fs.writeFileSync(path.join(packageDir, "LICENSE"), licenseText, "utf8");
 
   const packageJson = {
     name: packageName,
-    version: "1.0.0",
+    version: "1.0.1",
     description: `${displayName} theme from ChatPotion for The Lounge IRC client.`,
     main: "package.json",
     keywords: [
