@@ -98,6 +98,20 @@ ChatPotion works best when applied over The Lounge's **Morning** theme.
 
 AMOLED-based setups may also work well, but AMOLED is not a default The Lounge theme.
 
+## Support
+
+ChatPotion is free and open source. If you like the project and want to support future updates, you can donate here:
+
+* **Bitcoin:** `152t9E459z3o2C7Nt5ZsFCgfV6YcKtEph8`
+* **Ethereum:** `0xf5e3dc3f7b421f66fd53b83a1e24dfe0f3b06103`
+* **Solana:** `DwkYxTJ33QUzuuDP4GLJNSzLWD3wUHjiCyiW4ztzYcwW`
+* **Dogecoin:** `DRyszSw99c7z82nfZBjrCgdPmc5QGymC74`
+* **Litecoin:** `LQLoyKQuyd2gCGrNn6FLfVjjHuUz5oPXnm`
+
+Please double-check the address and network before sending. Crypto transactions cannot be reversed.
+
+If you would like to be added to the supporters list, you can contact me at `acidvoltax@proton.me`.
+
 ## Folder Structure
 
 ```text
