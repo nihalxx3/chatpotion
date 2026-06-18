@@ -1,0 +1,16 @@
+```svg
+<svg
+  width="520"
+  height="90"
+  viewBox="0 0 520 90"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <text
+    x="20"
+    y="62"
+    font-family="Segoe UI, Arial, sans-serif"
+    font-size="46"
+    font-weight="700"
+  ><tspan fill="#FFFFFF">Ch</tspan><tspan fill="#E75A5F">a</tspan><tspan fill="#FFFFFF">t</tspan><tspan fill="#58A6FF">Potion</tspan></text>
+</svg>
+```
