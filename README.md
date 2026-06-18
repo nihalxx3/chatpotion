@@ -1,16 +1,11 @@
+```md
 <p align="center">
   <img src="assets/chatpotion-logo.svg" alt="ChatPotion" width="320">
 </p>
 
-<p align="center">
-  <strong>A polished collection of 21 themes for <a href="https://thelounge.chat/">The Lounge</a></strong>
-</p>
+**ChatPotion** is a polished collection of 21 themes for [The Lounge](https://thelounge.chat/), focused on clean dark interfaces, readable chat layouts, distinct unread and mention indicators, and a compact Halloy-inspired sidebar.
+```
 
-<p align="center">
-  Clean dark interfaces • Readable chat layouts • npm installable themes
-</p>
-
-# ChatPotion
 
 **ChatPotion** is a polished collection of 21 themes for [The Lounge](https://thelounge.chat/), focused on clean dark interfaces, readable chat layouts, distinct unread and mention indicators, and a compact Halloy-inspired sidebar.
 
