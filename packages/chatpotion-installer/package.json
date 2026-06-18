@@ -1,0 +1,40 @@
+{
+  "name": "chatpotion-installer",
+  "version": "1.0.0",
+  "description": "Install all 21 ChatPotion themes for The Lounge IRC client.",
+  "license": "MIT",
+  "author": "ggvolta",
+  "type": "commonjs",
+  "bin": {
+    "chatpotion-installer": "bin/chatpotion-installer.js"
+  },
+  "files": [
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node bin/chatpotion-installer.js --dry-run"
+  },
+  "keywords": [
+    "thelounge",
+    "irc",
+    "theme",
+    "themes",
+    "chatpotion",
+    "installer",
+    "dark-theme"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ggvolta/ChatPotion.git",
+    "directory": "packages/chatpotion-installer"
+  },
+  "homepage": "https://github.com/ggvolta/ChatPotion",
+  "bugs": {
+    "url": "https://github.com/ggvolta/ChatPotion/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
