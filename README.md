@@ -236,7 +236,9 @@ The standalone CSS files inside the `themes` folder can also be used through The
 
 ## Support
 
-ChatPotion is free and open source. If you like the project and want to support future updates, you can donate here:
+ChatPotion is free and open source.
+
+If you like the project and want to support future updates, you can donate here:
 
 * **Bitcoin:** `152t9E459z3o2C7Nt5ZsFCgfV6YcKtEph8`
 * **Ethereum:** `0xf5e3dc3f7b421f66fd53b83a1e24dfe0f3b06103`
@@ -245,6 +247,12 @@ ChatPotion is free and open source. If you like the project and want to support 
 * **Litecoin:** `LQLoyKQuyd2gCGrNn6FLfVjjHuUz5oPXnm`
 
 Please double-check the address and network before sending. Cryptocurrency transactions cannot be reversed.
+
+To be added to the supporters list, contact:
+
+```text
+acidvoltax@proton.me
+```
 
 ## Project Structure
 
